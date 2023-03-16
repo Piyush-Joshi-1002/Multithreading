@@ -1,7 +1,7 @@
 package org.example.VirtualThread;
 
 public class VirtualThreadExample {
-   public static void main(String[] args)  {
+//   public static void main(String[] args)  {
 //        Runnable runnable= () ->{
 //            for(int i=0;i<10;i++){
 //                System.out.println("Index :"+ i + Thread.currentThread().getName());
@@ -28,5 +28,5 @@ public class VirtualThreadExample {
 //        catch (InterruptedException e){
 //            e.printStackTrace();
 //        }
-    }
+//    }
 }
