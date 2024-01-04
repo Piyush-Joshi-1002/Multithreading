@@ -81,9 +81,9 @@ class ThreadGroupDemo implements Runnable {
         Thread[] list = new Thread[pGroup.activeCount()];
         int count = pGroup.enumerate(list);
         for (int i = 0; i < count; i++) {
-            System.out.println("Thread " + list[i].getName() + " found " +  list[i].getThreadGroup());
+            System.out.println("Thread " + list[i].getName() + " found " + list[i].getThreadGroup());
         }
-
+        System.out.println("This is first change");
     }
 
     // implements run()
